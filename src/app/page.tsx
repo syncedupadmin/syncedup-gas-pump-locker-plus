@@ -10,7 +10,7 @@ export default function HomePage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/image0.jpeg"
+            src="/images/hero.png"
             alt="Gas Pump Locker Plus"
             fill
             className="object-cover"

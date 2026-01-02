@@ -60,7 +60,7 @@ export default function Footer() {
                   (917) 742-0044
                 </a>
               </li>
-              <li>support@gaspumplockersplus.com</li>
+              <li>michael@gaspumplockersplus.com</li>
               <li>Mon-Fri: 9AM - 5PM EST</li>
             </ul>
           </div>

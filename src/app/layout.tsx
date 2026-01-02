@@ -7,9 +7,17 @@ import SiteShell from '@/components/SiteShell';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.gaspumplockersplus.com'),
   title: 'Gas Pump Locker Plus | Multi-Purpose Tool',
   description: 'Premium gas pump handle holders for clean, hygienic fueling. Never touch a dirty pump handle again.',
   keywords: 'gas pump holder, pump handle cover, fuel pump tool, hygiene, automotive accessories',
+  openGraph: {
+    title: 'Gas Pump Locker Plus | Multi-Purpose Tool',
+    description: 'Premium gas pump handle holders for clean, hygienic fueling. Never touch a dirty pump handle again.',
+    url: 'https://www.gaspumplockersplus.com',
+    siteName: 'Gas Pump Locker Plus',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({

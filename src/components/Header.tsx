@@ -24,14 +24,25 @@ export default function Header() {
             <Image
               src="/images/logo.png"
               alt="Gas Pump Locker Plus"
-              width={60}
-              height={60}
-              className="rounded-full"
+              width={180}
+              height={180}
+              className="rounded-full w-16 h-16 sm:w-20 sm:h-20"
             />
             <span className="hidden sm:block text-xl font-bold text-white">
               Gas Pump Locker Plus
             </span>
           </Link>
+
+          {/* Phone Number */}
+          <a
+            href="tel:+19177420044"
+            className="hidden lg:flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
+          >
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            <span className="text-sm font-medium">(917) 742-0044</span>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">

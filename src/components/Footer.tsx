@@ -12,9 +12,9 @@ export default function Footer() {
               <Image
                 src="/images/logo.png"
                 alt="Gas Pump Locker Plus"
-                width={50}
-                height={50}
-                className="rounded-full"
+                width={150}
+                height={150}
+                className="rounded-full w-14 h-14"
               />
               <span className="text-lg font-bold text-white">Gas Pump Locker Plus</span>
             </Link>
@@ -55,6 +55,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-400 text-sm">
+              <li>
+                <a href="tel:+19177420044" className="hover:text-brand-orange transition-colors">
+                  (917) 742-0044
+                </a>
+              </li>
               <li>support@gaspumplockersplus.com</li>
               <li>Mon-Fri: 9AM - 5PM EST</li>
             </ul>

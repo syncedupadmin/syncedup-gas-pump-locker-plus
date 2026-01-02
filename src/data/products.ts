@@ -11,45 +11,19 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 'standard-holder',
-    name: 'Standard Handle Holder',
-    description: 'Our classic gas pump handle holder. Durable, lightweight, and easy to use. Perfect for everyday drivers who want to keep their hands clean.',
-    price: 9.99,
+    id: 'gas-pump-locker-plus',
+    name: 'Gas Pump Locker Plus',
+    description: 'The ultimate multi-purpose gas pump handle holder. Premium construction with antimicrobial coating for clean, hygienic fueling every time. Never touch a dirty pump handle again.',
+    price: 29.00,
     image: '/images/image1.jpeg',
     badge: 'Best Seller',
     features: [
-      'Fits most standard gas pump handles',
+      'Fits all standard gas pump handles',
+      'Antimicrobial coating for hygiene',
+      'Ergonomic grip design',
+      'Durable premium construction',
       'Lightweight and portable',
       'Easy one-hand operation',
-      'Durable ABS plastic construction',
-    ],
-  },
-  {
-    id: 'premium-holder',
-    name: 'Premium Handle Holder',
-    description: 'Enhanced grip with antimicrobial coating. Our premium option for those who demand the best in hygiene and comfort.',
-    price: 14.99,
-    image: '/images/image2.jpeg',
-    badge: 'Most Popular',
-    features: [
-      'Antimicrobial coating',
-      'Ergonomic grip design',
-      'Extended handle for leverage',
-      'Premium materials',
-    ],
-  },
-  {
-    id: 'deluxe-kit',
-    name: 'Deluxe 2-Pack Kit',
-    description: 'Two premium holders with a convenient carrying case. Perfect for families or keeping one in each vehicle.',
-    price: 24.99,
-    image: '/images/image3.jpeg',
-    badge: 'Best Value',
-    features: [
-      'Includes 2 premium holders',
-      'Zippered carrying case',
-      'Great for multiple vehicles',
-      'Save over buying separately',
     ],
   },
 ];

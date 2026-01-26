@@ -12,11 +12,11 @@ export default function Footer() {
               <Image
                 src="/images/logo.png"
                 alt="Gas Pump Locker Plus"
-                width={150}
-                height={150}
-                className="rounded-full w-14 h-14"
+                width={200}
+                height={200}
+                className="rounded-full w-20 h-20 sm:w-24 sm:h-24"
               />
-              <span className="text-lg font-bold text-white">Gas Pump Locker Plus</span>
+              <span className="text-xl font-bold text-white">Gas Pump Locker Plus</span>
             </Link>
             <p className="text-gray-400 text-sm max-w-md">
               Premium gas pump handle holders designed for clean, hygienic fueling.

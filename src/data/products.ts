@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: 'Gas Pump Locker Plus',
     description: 'The ultimate multi-purpose gas pump handle holder. Premium construction with antimicrobial coating for clean, hygienic fueling every time. Never touch a dirty pump handle again.',
     price: 29.00,
-    image: '/images/image1.jpeg',
+    image: '/images/product-installed.jpeg',
     badge: 'Best Seller',
     features: [
       'Fits all standard gas pump handles',

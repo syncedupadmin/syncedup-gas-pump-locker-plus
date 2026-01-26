@@ -18,15 +18,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-[#0D0D0D]/95 backdrop-blur-sm border-b border-[#2a2a25]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24 sm:h-32">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/images/logo.png"
               alt="Gas Pump Locker Plus"
-              width={180}
-              height={180}
-              className="rounded-full w-16 h-16 sm:w-20 sm:h-20"
+              width={200}
+              height={200}
+              className="rounded-full w-20 h-20 sm:w-28 sm:h-28"
             />
             <span className="hidden sm:block text-xl font-bold text-white">
               Gas Pump Locker Plus

@@ -80,7 +80,7 @@ export default function HomePage() {
             {/* Image */}
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image
-                src="/images/image4.jpeg"
+                src="/images/product-closeup.jpeg"
                 alt="How to use Gas Pump Locker Plus"
                 fill
                 className="object-cover"
